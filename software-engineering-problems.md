@@ -1,0 +1,101 @@
+# Software Engineering Problems
+- Syntax
+    - Read and control digital and analog I/O
+    - Print to the Serial Monitor and Serial Plotter
+    - Read from the Serial port
+    - Create and use global and local variables
+        - Why use constants?
+    - Use if statements
+    - Use while loops
+        - [Using while loops with millis() to do something during a delay](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/FromBlockingToNonBlocking/FromBlockingToNonBlocking.ino#L28-L31)
+    - Use for loops
+    - Create and use functions
+    - Basic use of Arrays
+    - Pass-by-reference
+- Concepts
+    - [Edge detection](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoHackathon2/CompleteCode/Remote/Remote.ino#L209-L222)
+    - [Debouncing](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoHackathon2/CompleteCode/Remote/Remote.ino#L153-L167)
+    - [Non-blocking code](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/FromBlockingToNonBlocking/FromBlockingToNonBlocking.ino)
+        - [Why is this important?](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/02_02_2023/Exercises/1b/1b.ino#L12-L18)
+        - [Substitute for delay](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/FromBlockingToNonBlocking/FromBlockingToNonBlocking.ino#L65-L72)
+        - [Substitue for while loops](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/FromBlockingToNonBlocking/FromBlockingToNonBlocking.ino#L57-L61)
+        - [Substitue for for loops](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/FromBlockingToNonBlocking/FromBlockingToNonBlocking.ino#L89-L107)
+        - [State machines](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/02_02_2023/Exercises/4b/4b.ino#L63-L78)
+    - [Mapping function](https://github.com/nosknut/arduino-course-v2023/blob/main/YR6018/15_03_2023/Examples/RotatingOledState/RotatingOledState.ino#L57-L68)
+    - Enums
+        - Why use enums?
+        - [Using an enum with a mapping function to relate enum values to state-dependent values](https://github.com/nosknut/arduino-course-v2023/blob/main/YR6018/15_03_2023/Examples/RotatingOledState/RotatingOledState.ino#L57-L68)
+        - [Using an enum for a finite state machine](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/02_02_2023/Exercises/6b/6b.ino#L105-L153)
+    - [Parsing](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/ReadJson/ReadJson.ino) and [Serialization](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/PrintJson/PrintJson.ino) (Json and CSV)
+        - The value of using standardized protocols
+            - [Sending multiple values over a text based protocol](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/EspNowSendJson/EspNowSendJson.ino#L103-L111)
+            - [Abstraction and normalization of transmitted data](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/EspNowSerialRouter/EspNowSerialRouter.ino#L64-L96)
+            - Removing challenges that would otherwise cause some features not to be implemented
+        - Demonstrate the drawbacks of using a text based protocol
+            - Overhead causing a slower system
+                - [Optimized Sender](https://github.com/nosknut/statistics-project-h2022/blob/main/publish-source/src/main.cpp#L43-L47)
+                - [Optimized Receiver (Batch read)](https://github.com/nosknut/statistics-project-h2022/blob/main/archive-com/archive.py#L48-L50)
+        - Used for
+            - Serial Port (SPI)
+                - [Send](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/PrintJson/PrintJson.ino#L14-L33)
+                - [Receive](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/ReadJson/ReadJson.ino#L33-L41)
+            - Esp Now
+                - [Send](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/EspNowSendJson/EspNowSendJson.ino#L48-L55)
+                - [Receive](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/ArduinoExampleCode/EspNowReceiveJson/EspNowReceiveJson.ino#L47-L52)
+            - I2C
+                - Code will be nearly identical to Serial (SPI) send and receive
+            - MQTT
+                - Code will be identical to Esp Now send and receive
+- Communication
+    - Serial (SPI)
+    - Esp Now
+    - I2C
+    - MQTT
+    - WiFi (Esp32)
+    - Node-Red (Webserver)
+- Dicipline
+    - Finding documentation and example code
+    - Debugging and reading other peoples code
+        - Debugging broken logic
+            1. Locate the entrypoint of the program
+            1. Track down the flow of the program function by function
+            1. Add ```Serial.println()``` to see where the code fails
+        - Debugging error messages
+            1. Locating the error message in the stacktrace
+            1. Considering whether the error might be caused by a different line than the error message suggests
+            1. Googling the error
+            1. Recognizing what solutions may look like
+                - Typically in the form of a question at the top of a forum post, where the useful info is usually branded as "solution" or upvoted by many.
+                - Recognizing what solutions do not look like so time is not wasted
+                - Skimming through the solution to see if it makes sense
+    - Following style guides and conventions
+        - Setting expectations for what different code looks like
+            - Easier to make assumptions to save time
+            - Being able to trust variable and function names and naming schemes to inform about what the code does
+    - Code splitting
+        - Function names should in most cases be enough to understand what the code does
+            - If not, split the function into smaller functions
+    - Solving one problem at the time
+        - Demonstrate conplex problems that are not possible to solve for a novice without practicing this principle
+    - Testing code early and thoroughly
+        - Ensure one has a solid foundation before continuing, to avoid having to go back and fix bugs later in a more complex system.
+- Architecture
+    - Structs
+        - What they should learn
+            - Why use structs?
+            - [How to use structs for grouping variables and functions](https://github.com/nosknut/arduino-course-v2023/blob/main/IELET1002/02_02_2023/Exercises/1c/1c.ino#L1C1-L19)
+            - When not to use structs
+                - Highly interconnected code
+        - What they should **not** learn
+            - The term "Object Oriented Programming"
+            - Constructors
+            - Member visibility (Private and Public)
+            - Inheritance
+            - Overriding
+            - Overloading
+            - These concepts make up all the complexity of OOP, as well as all the pitfalls. They will not be needed in this course.
+    - Creating functions that update globals, instead of returning the result
+        - This makes the code more scalable (Mostly applies to the Arduino framework)
+    - Subdividing problems and creating isolated systems to deal with them one by one
+        - [Blink Controller](https://github.com/nosknut/arduino-project/blob/localization/knut-ola/lectures/YR6018/20_04_2022_09_15_12_15/demo-5/src/main.cpp#L533-L572)
+        - [Motor Controller](https://github.com/nosknut/arduino-hackathons-v2023/blob/main/ArduinoHackathon1/Final%20Code/Exercise1b/Exercise1b.ino)
