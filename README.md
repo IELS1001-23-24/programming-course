@@ -3,6 +3,9 @@
 - [1. Semester](software-engineering-problems.md)
 - [2. Semester](software-engineering-problems.md)
 
+# Støttemateriell
+- [JSON](doc/json/README.md)
+
 # Formelle krav for innleveringer
 
 1. All kode og kommentarer skal skrives på engelsk

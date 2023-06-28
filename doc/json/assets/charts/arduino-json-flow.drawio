@@ -1,0 +1,63 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="wL3Vi3PIHzBTolFVSnCt">
+        <mxGraphModel dx="880" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="440" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ksV83YqhdLmb8RUmtHHy-3" target="ksV83YqhdLmb8RUmtHHy-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-3" value="JsonDocument" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ksV83YqhdLmb8RUmtHHy-4" target="ksV83YqhdLmb8RUmtHHy-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-4" value="Serialize" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ksV83YqhdLmb8RUmtHHy-7" target="ksV83YqhdLmb8RUmtHHy-28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="519.9769175701736" y="109.20229185942253" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-7" value="JSON-formatted String" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-18" value="Arduino 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="440" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ksV83YqhdLmb8RUmtHHy-21" target="ksV83YqhdLmb8RUmtHHy-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-21" value="JSON-formatted String" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ksV83YqhdLmb8RUmtHHy-23" target="ksV83YqhdLmb8RUmtHHy-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-23" value="Deserialize" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-24" value="JsonDocument" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-25" value="Arduino 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ksV83YqhdLmb8RUmtHHy-28" target="ksV83YqhdLmb8RUmtHHy-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ksV83YqhdLmb8RUmtHHy-28" value="UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
