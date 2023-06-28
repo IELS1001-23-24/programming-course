@@ -4,6 +4,7 @@
 - [2. Semester](software-engineering-problems.md)
 
 # Støttemateriell
+- [Verktøy](doc/tools/README.md)
 - [JSON](doc/json/README.md)
 
 # Formelle krav for innleveringer
