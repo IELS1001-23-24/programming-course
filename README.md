@@ -4,6 +4,7 @@
 - [2. Semester](software-engineering-problems.md)
 
 # Støttemateriell
+
 - [Verktøy](doc/tools/README.md)
 - [JSON](doc/json/README.md)
 
@@ -16,6 +17,7 @@
 # Arbeidskrav
 
 - [Arbeidskrav 1](Exercises/1/Exercises/README.md)
+- [const vs #define](Exercises/ConstVsDefine/README.md)
 
 # Hackathons
 
