@@ -18,6 +18,7 @@
 
 - [Arbeidskrav 1](Exercises/1/Exercises/README.md)
 - [const vs #define](Exercises/ConstVsDefine/README.md)
+- [Debounce](Exercises/Debounce/README.md)
 
 # Hackathons
 
