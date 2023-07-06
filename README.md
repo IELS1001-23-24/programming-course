@@ -20,6 +20,7 @@
 - [const vs #define](Exercises/ConstVsDefine/README.md)
 - [Debounce](Exercises/Debounce/README.md)
 - [Pass By Reference](Exercises/PassByReference/README.md)
+- [NonBlockingCode](Exercises/NonBlockingCode/README.md)
 
 # Hackathons
 
