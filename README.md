@@ -21,6 +21,7 @@
 - [Debounce](Exercises/Debounce/README.md)
 - [Pass By Reference](Exercises/PassByReference/README.md)
 - [NonBlockingCode](Exercises/NonBlockingCode/README.md)
+- [EdgeDetection](Exercises/EdgeDetection/README.md)
 
 # Hackathons
 

@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/PlotButton.ino.hex"
+elf = "../../../.build/PlotButton.ino.elf"

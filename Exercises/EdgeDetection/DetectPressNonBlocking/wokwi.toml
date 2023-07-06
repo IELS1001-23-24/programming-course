@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/DetectPressNonBlocking.ino.hex"
+elf = "../../../.build/DetectPressNonBlocking.ino.elf"
