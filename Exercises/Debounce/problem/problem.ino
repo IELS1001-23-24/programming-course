@@ -2,7 +2,7 @@
 // Hint:
 // https://docs.arduino.cc/built-in-examples/digital/Debounce
 
-const int BUTTON_PIN = 12;
+const int BUTTON_PIN = 2;
 
 int counter = 0;
 
@@ -11,7 +11,7 @@ bool previousButtonState = false;
 void setup() {
   Serial.begin(9600);
 
-  pinMode(BUTTON_PIN, INPUT_PULLUP);
+  pinMode(BUTTON_PIN, INPUT);
 }
 
 void loop() {
