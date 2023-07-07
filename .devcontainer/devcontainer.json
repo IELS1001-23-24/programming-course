@@ -1,0 +1,36 @@
+{
+  "name": "Arduino and Wokwi",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rpdswtk.vsmqtt",
+				"tomoki1207.pdf",
+				"eamodio.gitlens",
+				"ms-python.python",
+				"kakumei.ts-debug",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml",
+				"ms-toolsai.jupyter",
+				"Wokwi.wokwi-vscode",
+				"hediet.vscode-drawio",
+				"gruntfuggly.todo-tree",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"donjayamanne.githistory",
+				"ms-python.vscode-pylance",
+				"platformio.platformio-ide",
+				"ms-azuretools.vscode-docker",
+				"vsciot-vscode.vscode-arduino",
+				"rangav.vscode-thunder-client",
+				"formulahendry.vscode-node-red",
+				"spell-checker-norwegian-bokmal",
+				"ms-vscode.vscode-serial-monitor",
+				"ms-vscode.cpptools-extension-pack",
+				"streetsidesoftware.code-spell-checker",
+				"visualstudioexptteam.vscodeintellicode",
+				"donjayamanne.python-environment-manager"
+			]
+		}
+	}
+}
