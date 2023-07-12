@@ -1,4 +1,5 @@
 // Recreate this codes functionality using a while loop instead of a for loop.
+// You are only allowed to change the code inside the updateLed() function.
 
 const int LED_PIN = 5;
 
