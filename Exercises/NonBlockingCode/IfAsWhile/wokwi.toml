@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/IfAsWhile.ino.hex"
+elf = "../../../.build/IfAsWhile.ino.elf"

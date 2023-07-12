@@ -18,3 +18,9 @@ Innleveringer som gjør dette blir ikke godkjent.
 Produser kode som har tilsvarende funksjonalitet, men bruker en while-løkke istedenfor en for-løkke.
 
 - [Kode](ForAsWhile/ForAsWhile.ino)
+
+## `while()`
+
+Produser kode som har tilsvarende funksjonalitet, men bruk if-setninger istedenfor while-løkker.
+
+- [Kode](IfAsWhile/IfAsWhile.ino)

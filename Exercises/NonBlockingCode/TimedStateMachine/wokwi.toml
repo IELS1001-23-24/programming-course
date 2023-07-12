@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/TimedStateMachine.ino.hex"
+elf = "../../../.build/TimedStateMachine.ino.elf"

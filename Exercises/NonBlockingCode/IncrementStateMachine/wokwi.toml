@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/IncrementStateMachine.ino.hex"
+elf = "../../../.build/IncrementStateMachine.ino.elf"
