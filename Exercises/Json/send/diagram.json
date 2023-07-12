@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": -1.43, "left": -48.12, "attrs": {} },
+    { "type": "chip-uart-json", "id": "chip1", "top": -75.78, "left": 196.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "chip1:GND", "mega:GND.2", "black", [ "v0", "h49.81", "v259.2", "h-124.8" ] ],
+    [ "chip1:VCC", "mega:5V", "red", [ "h59.41", "v278.4", "h-134.4" ] ],
+    [ "mega:19", "chip1:TX", "limegreen", [ "v-45.97", "h-78.38", "v-19.2" ] ],
+    [ "mega:18", "chip1:RX", "violet", [ "v-36.37", "h-77.98", "v-38.4" ] ]
+  ],
+  "dependencies": { "chip-uart-json": "github:IELS1001-23-24/wokwi-json-chip@2.0.0" }
+}
