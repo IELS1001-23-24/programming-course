@@ -17,6 +17,7 @@
 # Arbeidskrav
 
 - [Arbeidskrav 1](Exercises/1/Exercises/README.md)
+- [Functions](Exercises/Functions/README.md)
 - [const vs #define](Exercises/ConstVsDefine/README.md)
 - [Debounce](Exercises/Debounce/README.md)
 - [Pass By Reference](Exercises/PassByReference/README.md)

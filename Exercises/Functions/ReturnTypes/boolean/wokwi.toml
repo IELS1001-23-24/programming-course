@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../../.build/boolean.ino.hex"
+elf = "../../../../.build/boolean.ino.elf"

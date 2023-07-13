@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../../.build/squarewave.ino.hex"
+elf = "../../../../.build/squarewave.ino.elf"
