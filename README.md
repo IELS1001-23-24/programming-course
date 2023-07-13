@@ -22,6 +22,7 @@
 - [Pass By Reference](Exercises/PassByReference/README.md)
 - [NonBlockingCode](Exercises/NonBlockingCode/README.md)
 - [EdgeDetection](Exercises/EdgeDetection/README.md)
+- [GuardClauses](Exercises/GuardClauses/README.md)
 - [Json](Exercises/Json/README.md)
 
 # Hackathons
