@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/BlockingTimedStateMachine.ino.hex"
+elf = "../../../.build/BlockingTimedStateMachine.ino.elf"
