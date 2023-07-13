@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = '../../../../../.build/1a.ino.hex'
-elf = '../../../../../.build/1a.ino.elf'
+firmware = "../../../../.build/1a.ino.hex"
+elf = "../../../../.build/1a.ino.elf"
