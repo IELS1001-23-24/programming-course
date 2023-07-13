@@ -18,6 +18,11 @@
 - [Switch](SwitchStateMachine/SwitchStateMachine.ino)
 - [Inkrementerende](IncrementStateMachine/IncrementStateMachine.ino)
 
+```
+Refleksjon:
+Denne typen tilstandsmaskin gjør det mulig å ...
+```
+
 ### Sammenlign disse demoene
 
 Reflekter over likheter og forskjeller. Hvorfor produserer de ikke samme resultat i seriemonitoren?
@@ -25,6 +30,17 @@ Reflekter over likheter og forskjeller. Hvorfor produserer de ikke samme resulta
 - [Betinget](LingeringStateMachine/LingeringStateMachine.ino)
 - [Betinget Uten Tilstandsmaskin](BlockingLingeringStateMachine/BlockingLingeringStateMachine.ino)
 
+```
+Refleksjon:
+Disse to sketchene er nermest funksjonelt like, med unntak av ...
+```
+
 ### Løs problemstillingene
 - [Tidsbasert](TimedStateMachine/TimedStateMachine.ino)
 - [Tidsbasert Uten Tilstandsmaskin](BlockingTimedStateMachine/BlockingTimedStateMachine.ino)
+
+```
+Refleksjon:
+Ved å bruke tilstandsmaskiner for å kjøre oppgaver som
+må vente en gitt tid før de fortsetter, kan vi også ...
+```
