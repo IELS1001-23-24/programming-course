@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/debounce.ino.hex"
+elf = "../../../.build/debounce.ino.elf"

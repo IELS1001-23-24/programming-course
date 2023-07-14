@@ -24,6 +24,7 @@
 - [NonBlockingCode](Exercises/NonBlockingCode/README.md)
 - [EdgeDetection](Exercises/EdgeDetection/README.md)
 - [GuardClauses](Exercises/GuardClauses/README.md)
+- [Interrupts](Exercises/Interrupts/README.md)
 - [Json](Exercises/Json/README.md)
 
 # Hackathons
