@@ -25,6 +25,7 @@
 - [EdgeDetection](Exercises/EdgeDetection/README.md)
 - [GuardClauses](Exercises/GuardClauses/README.md)
 - [Interrupts](Exercises/Interrupts/README.md)
+- [Watchdog Timer](Exercises/WatchdogTimer/README.md)
 - [Json](Exercises/Json/README.md)
 
 # Hackathons
