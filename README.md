@@ -26,6 +26,7 @@
 - [GuardClauses](Exercises/GuardClauses/README.md)
 - [Interrupts](Exercises/Interrupts/README.md)
 - [Watchdog Timer](Exercises/WatchdogTimer/README.md)
+- [Test Dreven Utvikling](Exercises/Tests/README.md)
 - [Json](Exercises/Json/README.md)
 
 # Hackathons
