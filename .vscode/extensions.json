@@ -15,6 +15,7 @@
     "esbenp.prettier-vscode",
     "donjayamanne.githistory",
     "ms-python.vscode-pylance",
+    "bierner.markdown-mermaid",
     "platformio.platformio-ide",
     "ms-azuretools.vscode-docker",
     "vsciot-vscode.vscode-arduino",
