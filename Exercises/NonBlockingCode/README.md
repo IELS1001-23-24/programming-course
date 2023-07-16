@@ -142,3 +142,41 @@ Refleksjon:
 Ved å bruke tilstandsmaskiner for å kjøre oppgaver som
 må vente en gitt tid før de fortsetter, kan vi også ...
 ```
+
+### Løs problemstillingene
+
+- [Tidsbasert](TimedStateMachine/TimedStateMachine.ino)
+- [Tidsbasert Uten Tilstandsmaskin](BlockingTimedStateMachine/BlockingTimedStateMachine.ino)
+
+```
+Refleksjon:
+Ved å bruke tilstandsmaskiner for å kjøre oppgaver som
+må vente en gitt tid før de fortsetter, kan vi også ...
+```
+
+## For-løkke i tilstandsmaskin
+
+Bruk det du ha lært for å oversette [denne](ForWithoutStateMachine/ForWithoutStateMachine.ino) blokkerende sekvensielle koden til en ikke-blokkerende sekvensiell kode med en tilstandsmaskin. Bruk [denne](ForWithStateMachine/ForWithStateMachine.ino) koden som utgangspunkt.
+
+Fokuser først på å oversette for-løkken, og la `delay()` være i koden.
+Hva er loop time da?
+
+```
+Refleksjon:
+Loop time med delay() er ca:
+```
+
+Erstatt `delay()` med sin asynkrone versjon. Hva er loop time da?
+
+```
+Refleksjon:
+Loop time uten delay() er ca:
+```
+
+Reflekter rundt forskjellen i loop time, og hvordan blokkerende/ikke-blokkerende kode kan påvirke andre deler av koden i større prosjekter med flere tusen linjer kode, mange separate komponenter, eller flere som jobber i et team. Hva er mer komplisert? Å designe litt mer kompliserte enkeltkomponenter som er uavhengige av/påvirker hverandre, eller å designe enkle komponenter som er avhengige av/påvirker hverandre?
+
+```
+Refleksjon:
+Tilstandsmaskiner gjør det mer praktisk å implementere for-løkker
+som må kjøres i en bestemt rekkefølge, fordi ...
+```

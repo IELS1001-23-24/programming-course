@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/ForWithoutStateMachine.ino.hex"
+elf = "../../../.build/ForWithoutStateMachine.ino.elf"
