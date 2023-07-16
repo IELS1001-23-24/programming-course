@@ -15,6 +15,7 @@ void updateLed()
     for (int i = 0; i <= 255; i++)
     {
         analogWrite(LED_PIN, i);
+        Serial.println(i);
         delay(10);
     }
 }
