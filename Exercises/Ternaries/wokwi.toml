@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../.build/Ternaries.ino.hex"
+elf = "../../.build/Ternaries.ino.elf"

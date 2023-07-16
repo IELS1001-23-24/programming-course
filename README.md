@@ -26,6 +26,7 @@
 - [EdgeDetection](Exercises/EdgeDetection/README.md)
 - [GuardClauses](Exercises/GuardClauses/README.md)
 - [Interrupts](Exercises/Interrupts/README.md)
+- [Ternaries](Exercises/Ternaries/README.md)
 - [Mapping Functions](Exercises/MappingFunctions/README.md)
 - [Watchdog Timer](Exercises/WatchdogTimer/README.md)
 - [Test Dreven Utvikling](Exercises/Tests/README.md)
