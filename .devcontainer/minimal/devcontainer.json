@@ -1,0 +1,17 @@
+{
+  "name": "Minimal",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Wokwi.wokwi-vscode",
+				"donjayamanne.githistory",
+				"bierner.markdown-mermaid",
+				"vsciot-vscode.vscode-arduino",
+				"ms-vscode.vscode-serial-monitor",
+				"ms-vscode.cpptools-extension-pack",
+				"nosknut.arduino-sketch-auto-switcher"
+			]
+		}
+	}
+}

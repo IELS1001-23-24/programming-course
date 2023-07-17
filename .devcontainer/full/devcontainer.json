@@ -1,5 +1,5 @@
 {
-  "name": "Arduino and Wokwi",
+  "name": "Full",
 	"image": "ghcr.io/iels1001-23-24/programming-course-hidden:main",
 	"customizations": {
 		"vscode": {
