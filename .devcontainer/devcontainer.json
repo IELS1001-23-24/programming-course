@@ -1,6 +1,6 @@
 {
   "name": "Arduino and Wokwi",
-	"dockerFile": "Dockerfile",
+	"image": "ghcr.io/iels1001-23-24/programming-course-hidden:main",
 	"customizations": {
 		"vscode": {
 			"extensions": [
