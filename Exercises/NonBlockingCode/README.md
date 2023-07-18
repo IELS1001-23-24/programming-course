@@ -55,7 +55,7 @@ Nedenfor skal dere lage asynkrone alternativer til noen synkrone programmeringsp
 
 ## Asynkron `delay()`
 
-Fiks koden slik at LED-tilstanden endres umiddelbart når knapp-tilstanden endres. Du skal ikke endre koden i loop() eller updateLed(). Innleveringer som gjør dette blir ikke godkjent.
+Fiks koden slik at LED-tilstanden endres umiddelbart når knapp-tilstanden endres. Du skal ikke endre koden i loop() eller updateLed(). Dette er et krav fordi vi ønsker å simulere en situasjon hvor koden vi ønsker å endre er en del av en større kodebase som vi ikke kan endre.
 
 - [Kode](delay/delay.ino)
 

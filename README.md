@@ -13,6 +13,8 @@
 1. All kode og kommentarer skal skrives på engelsk
 1. Koden skal følge styleguides og navnekonvensjoner fra det gjeldende programmeringsspråket eller rammeverket
 1. Arbeidet skal være selvstendig og utført i henhold til høgskolens [retningslinjer for fusk og plagiering](https://i.ntnu.no/oppgaveskriving/plagiering).
+1. Oppgaver som **ikke** er tydelig merket med "Valgfri oppgave" er **obligatoriske**, og utgjør 60% av øvingen. Alle obligatoriske oppgaver må være løst for å få godkjent øvingen.
+1. Innleveringer må oppfylle **alle** krav i oppgaveteksten og kommentarene i koden for å bli godkjent. Kravene er der for at du skal ha frihet til å finne din egen løsning og struktur, men fortsatt ende opp med kode som vil fungere i alle systemer.
 
 # Arbeidskrav
 
