@@ -21,6 +21,7 @@
 - [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
 - [Arbeidskrav 1](Exercises/1/Exercises/README.md)
 - [Logikk](Exercises/Logic/README.md)
+- [Sync Fork](Exercises/SyncFork/README.md)
 - [Functions](Exercises/Functions/README.md)
 - [const vs #define](Exercises/ConstVsDefine/README.md)
 - [Debounce](Exercises/Debounce/README.md)
