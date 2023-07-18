@@ -10,7 +10,8 @@
 				"vsciot-vscode.vscode-arduino",
 				"ms-vscode.vscode-serial-monitor",
 				"ms-vscode.cpptools-extension-pack",
-				"nosknut.arduino-sketch-auto-switcher"
+				"nosknut.arduino-sketch-auto-switcher",
+				"fabiospampinato.vscode-open-in-github"
 			]
 		}
 	}
