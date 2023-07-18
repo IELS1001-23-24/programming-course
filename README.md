@@ -18,6 +18,7 @@
 
 # Arbeidskrav
 
+- [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
 - [Arbeidskrav 1](Exercises/1/Exercises/README.md)
 - [Logikk](Exercises/Logic/README.md)
 - [Functions](Exercises/Functions/README.md)
