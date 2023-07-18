@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../.build/Logic.ino.hex"
-elf = "../../.build/Logic.ino.elf"
+firmware = "../../../.build/segment.ino.hex"
+elf = "../../../.build/segment.ino.elf"
