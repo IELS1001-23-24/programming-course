@@ -1,4 +1,4 @@
-[<- Tilbake](/README.md)
+[<- Tilbake](/README.md#arbeidskrav)
 
 # Test Dreven Utvikling
 
