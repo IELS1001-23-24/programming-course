@@ -5,8 +5,13 @@
 
 # Støttemateriell
 
-- [Verktøy](doc/tools/README.md)
 - [JSON](doc/json/README.md)
+
+## Tips
+
+- [11 Nyttige VsCode Hotkeys](https://www.desuvit.com/11-vscode-keyboard-shortcuts-that-will-boost-your-productivity/)
+- [15 Nyttige VsCode Hotkeys](https://betterprogramming.pub/15-Nyttige-vscode-shortcuts-to-boost-your-productivity-415de3cb1910)
+- [Alle VsCode Hotkeys](https://quickref.me/vscode.html)
 
 # Formelle krav for innleveringer
 
