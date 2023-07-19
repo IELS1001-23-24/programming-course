@@ -24,7 +24,6 @@
 # Arbeidskrav
 
 - [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
-- [Arbeidskrav 1](Exercises/1/Exercises/README.md)
 - [Logikk](Exercises/Logic/README.md)
 - [Commit](Exercises/commit/README.md)
 - [Sync Fork](Exercises/SyncFork/README.md)
@@ -41,7 +40,3 @@
 - [Watchdog Timer](Exercises/WatchdogTimer/README.md)
 - [Test Dreven Utvikling](Exercises/Tests/README.md)
 - [Json](Exercises/Json/README.md)
-
-# Hackathons
-
-- [Hackathon 1](Hackathons/1/Exercises/README.md)
