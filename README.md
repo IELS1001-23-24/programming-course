@@ -38,6 +38,7 @@
 - [Interrupts](Exercises/Interrupts/README.md)
 - [Ternaries](Exercises/Ternaries/README.md)
 - [Mapping Functions](Exercises/MappingFunctions/README.md)
+- [Structs](Exercises/Structs/README.md)
 - [Watchdog Timer](Exercises/WatchdogTimer/README.md)
 - [Test Dreven Utvikling](Exercises/Tests/README.md)
 - [Json](Exercises/Json/README.md)

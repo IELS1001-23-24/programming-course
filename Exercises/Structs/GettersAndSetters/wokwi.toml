@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/GettersAndSetters.ino.hex"
+elf = "../../../.build/GettersAndSetters.ino.elf"

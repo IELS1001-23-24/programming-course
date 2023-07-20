@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/ExtendedCircuit.ino.hex"
+elf = "../../../.build/ExtendedCircuit.ino.elf"
