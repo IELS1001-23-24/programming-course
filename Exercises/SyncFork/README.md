@@ -8,6 +8,10 @@ Grafen under viser forskjellen mellom main repo og fork før en synkronisering h
 ---
 title: Before sync
 ---
+
+%% This is a diagram. If it is not rendering, install this extension:
+%% https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+
 gitGraph
    commit id: "Publiserte Øving 1"
    commit id: "Publiserte Øving 1 LF"
@@ -25,6 +29,10 @@ For å slå sammen endringene gjør vi en "git rebase" eller "fast-forward", som
 ---
 title: After sync
 ---
+
+%% This is a diagram. If it is not rendering, install this extension:
+%% https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+
 gitGraph
    commit id: "Publiserte Øving 1"
    commit id: "Publiserte Øving 1 LF"

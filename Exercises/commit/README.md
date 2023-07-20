@@ -8,6 +8,10 @@ Git er basert på commits, som består av filendringer. Et git repository bestå
 ---
 title: Git History
 ---
+
+%% This is a diagram. If it is not rendering, install this extension:
+%% https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+
 gitGraph
    commit id: "Adds a print"
    commit id: "Adds a second print"
