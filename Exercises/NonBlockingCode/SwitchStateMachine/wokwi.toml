@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../../.build/SwitchStateMachine.ino.hex"
-elf = "../../../.build/SwitchStateMachine.ino.elf"
+firmware = "../../../.arduino/output/SwitchStateMachine.ino.hex"
+elf = "../../../.arduino/output/SwitchStateMachine.ino.elf"

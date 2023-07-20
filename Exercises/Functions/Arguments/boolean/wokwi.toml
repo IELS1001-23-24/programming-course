@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../../../.build/boolean.ino.hex"
-elf = "../../../../.build/boolean.ino.elf"
+firmware = "../../../../.arduino/output/boolean.ino.hex"
+elf = "../../../../.arduino/output/boolean.ino.elf"

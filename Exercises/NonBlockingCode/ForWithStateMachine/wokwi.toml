@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../../.build/ForWithStateMachine.ino.hex"
-elf = "../../../.build/ForWithStateMachine.ino.elf"
+firmware = "../../../.arduino/output/ForWithStateMachine.ino.hex"
+elf = "../../../.arduino/output/ForWithStateMachine.ino.elf"

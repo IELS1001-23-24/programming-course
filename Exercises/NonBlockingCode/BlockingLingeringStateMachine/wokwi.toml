@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../../.build/BlockingLingeringStateMachine.ino.hex"
-elf = "../../../.build/BlockingLingeringStateMachine.ino.elf"
+firmware = "../../../.arduino/output/BlockingLingeringStateMachine.ino.hex"
+elf = "../../../.arduino/output/BlockingLingeringStateMachine.ino.elf"

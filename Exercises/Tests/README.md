@@ -6,7 +6,7 @@ Test-dreven utvikling (TDD) er et viktig konsept, som gjør mer komplekse oppgav
 
 ![Testkode](assets/test-meme.jpg)
 
-Det er svert viktig for sikkerhet at testkode aldri havner i produksjonsmiljøer. Vanligvis vil rammeverk inkludere et separat system slik at tester kan kjøres i egne filer, men i dette tilfelle har preprosessor direktiver blitt brukt i stede. Når `#define RUN_TESTS` er kommentert ut og koden rekompileres, kan man se at deler av koden er skygget ut. Sjekk [koden](/.build/preproc/ctags_target_for_gcc_minus_e.cpp) generert av preprosessoren for å se resultatet.
+Det er svert viktig for sikkerhet at testkode aldri havner i produksjonsmiljøer. Vanligvis vil rammeverk inkludere et separat system slik at tester kan kjøres i egne filer, men i dette tilfelle har preprosessor direktiver blitt brukt i stede. Når `#define RUN_TESTS` er kommentert ut og koden rekompileres, kan man se at deler av koden er skygget ut. Sjekk [koden](/.arduino/output/preproc/ctags_target_for_gcc_minus_e.cpp) generert av preprosessoren for å se resultatet.
 
 ## Eksempel
 

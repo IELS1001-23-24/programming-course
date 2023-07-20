@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = "../../../.build/struct.ino.hex"
-elf = "../../../.build/struct.ino.elf"
+firmware = "../../../.arduino/output/struct.ino.hex"
+elf = "../../../.arduino/output/struct.ino.elf"
