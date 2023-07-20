@@ -28,6 +28,7 @@
 - [Commit](Exercises/commit/README.md)
 - [Sync Fork](Exercises/SyncFork/README.md)
 - [Functions](Exercises/Functions/README.md)
+- [GlobalVariables](Exercises/GlobalVariables/README.md)
 - [const vs #define](Exercises/ConstVsDefine/README.md)
 - [Debounce](Exercises/Debounce/README.md)
 - [Pass By Reference](Exercises/PassByReference/README.md)

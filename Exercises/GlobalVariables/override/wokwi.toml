@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "../../../.build/override.ino.hex"
+elf = "../../../.build/override.ino.elf"
