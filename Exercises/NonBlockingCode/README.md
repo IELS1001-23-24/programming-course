@@ -143,17 +143,6 @@ Ved å bruke tilstandsmaskiner for å kjøre oppgaver som
 må vente en gitt tid før de fortsetter, kan vi også ...
 ```
 
-### Løs problemstillingene
-
-- [Tidsbasert](TimedStateMachine/TimedStateMachine.ino)
-- [Tidsbasert Uten Tilstandsmaskin](BlockingTimedStateMachine/BlockingTimedStateMachine.ino)
-
-```
-Refleksjon:
-Ved å bruke tilstandsmaskiner for å kjøre oppgaver som
-må vente en gitt tid før de fortsetter, kan vi også ...
-```
-
 ## For-løkke i tilstandsmaskin
 
 Bruk det du ha lært for å oversette [denne](ForWithoutStateMachine/ForWithoutStateMachine.ino) blokkerende sekvensielle koden til en ikke-blokkerende sekvensiell kode med en tilstandsmaskin. Bruk [denne](ForWithStateMachine/ForWithStateMachine.ino) koden som utgangspunkt.
