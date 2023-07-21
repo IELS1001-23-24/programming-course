@@ -23,23 +23,29 @@
 
 # Arbeidskrav
 
-- [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
-- [Logikk](Exercises/Logic/README.md)
-- [Commit](Exercises/commit/README.md)
-- [Sync Fork](Exercises/SyncFork/README.md)
-- [Functions](Exercises/Functions/README.md)
-- [Switch](Exercises/Switch/README.md)
-- [GlobalVariables](Exercises/GlobalVariables/README.md)
-- [const vs #define](Exercises/ConstVsDefine/README.md)
-- [Debounce](Exercises/Debounce/README.md)
-- [Pass By Reference](Exercises/PassByReference/README.md)
-- [NonBlockingCode](Exercises/NonBlockingCode/README.md)
-- [EdgeDetection](Exercises/EdgeDetection/README.md)
-- [GuardClauses](Exercises/GuardClauses/README.md)
-- [Interrupts](Exercises/Interrupts/README.md)
-- [Ternaries](Exercises/Ternaries/README.md)
-- [Mapping Functions](Exercises/MappingFunctions/README.md)
-- [Structs](Exercises/Structs/README.md)
-- [Watchdog Timer](Exercises/WatchdogTimer/README.md)
-- [Test Dreven Utvikling](Exercises/Tests/README.md)
-- [Json](Exercises/Json/README.md)
+- Arbeidskrav 1:
+  - [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
+  - [Logikk](Exercises/Logic/README.md)
+  - [Commit](Exercises/commit/README.md)
+  - [Sync Fork](Exercises/SyncFork/README.md)
+- Arbeidskrav 2:
+  - [Functions](Exercises/Functions/README.md)
+  - [Mapping Functions](Exercises/MappingFunctions/README.md)
+  - [Ternaries](Exercises/Ternaries/README.md)
+  - [GuardClauses](Exercises/GuardClauses/README.md)
+  - [GlobalVariables](Exercises/GlobalVariables/README.md)
+  - [const vs #define](Exercises/ConstVsDefine/README.md)
+  - [Pass By Reference](Exercises/PassByReference/README.md)
+- Arbeidskrav 3:
+  - [Debounce](Exercises/Debounce/README.md)
+  - [EdgeDetection](Exercises/EdgeDetection/README.md)
+  - [Interrupts](Exercises/Interrupts/README.md)
+- Arbeidskrav 4:
+  - [Switch](Exercises/Switch/README.md)
+  - [NonBlockingCode](Exercises/NonBlockingCode/README.md)
+- Arbeidskrav 5:
+  - [Structs](Exercises/Structs/README.md)
+  - [Json](Exercises/Json/README.md)
+- Arbeidskrav 6:
+  - [Watchdog Timer](Exercises/WatchdogTimer/README.md)
+  - [Test Dreven Utvikling](Exercises/Tests/README.md)
