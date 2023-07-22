@@ -2,7 +2,7 @@
 
 # Switch
 
-Eksperimenter med kodesnuttene under og se hva som skjer.
+Løs problemstillingene.
 
 - [Variabler i switch](variables/variables.ino)
 - [Fallthrough](fallthrough/fallthrough.ino)
