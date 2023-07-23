@@ -36,6 +36,7 @@
   - [GlobalVariables](Exercises/GlobalVariables/README.md)
   - [const vs #define](Exercises/ConstVsDefine/README.md)
   - [Pass By Reference](Exercises/PassByReference/README.md)
+  - [Arrays](Exercises/Arrays/README.md)
 - Arbeidskrav 3:
   - [Debounce](Exercises/Debounce/README.md)
   - [EdgeDetection](Exercises/EdgeDetection/README.md)
