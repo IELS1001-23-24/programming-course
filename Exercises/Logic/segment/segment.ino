@@ -54,25 +54,50 @@ int getSwitchValue(
         return 3;
     }
 
+    if (!sw1 && !sw2 && !sw3 && sw4 && !sw5 && !sw6 && !sw7 && !sw8)
+    {
+        return 4;
+    }
+
+    if (!sw1 && !sw2 && !sw3 && !sw4 && sw5 && !sw6 && !sw7 && !sw8)
+    {
+        return 5;
+    }
+
+    if (!sw1 && !sw2 && !sw3 && !sw4 && !sw5 && sw6 && !sw7 && !sw8)
+    {
+        return 6;
+    }
+
+    if (!sw1 && !sw2 && !sw3 && !sw4 && !sw5 && !sw6 && sw7 && !sw8)
+    {
+        return 7;
+    }
+
+    if (!sw1 && !sw2 && !sw3 && !sw4 && !sw5 && !sw6 && !sw7 && sw8)
+    {
+        return 8;
+    }
+
     return 0;
 }
 
 /**
  * @brief Sets the value of the seven segment display.
- * 
+ *
  * https://docs.wokwi.com/parts/wokwi-7segment
  *
  * @param value The value to set the seven segment display to (0-3).
  */
 void setSevenSegmentValue(int value)
 {
-    bool a = value == 0 || value == 2 || value == 3;
-    bool b = value == 0 || value == 1 || value == 2 || value == 3;
-    bool c = value == 0 || value == 1 || value == 3;
-    bool d = value == 0 || value == 2 || value == 3;
-    bool e = value == 0 || value == 2;
-    bool f = value == 0;
-    bool g = value == 2 || value == 3;
+    bool a = value == 0 || value == 2 || value == 3 || value == 5 || value == 6 || value == 7 || value == 8 || value == 9;
+    bool b = value == 0 || value == 1 || value == 2 || value == 3 || value == 4 || value == 7 || value == 8 || value == 9;
+    bool c = value == 0 || value == 1 || value == 3 || value == 4 || value == 5 || value == 6 || value == 7 || value == 8 || value == 9;
+    bool d = value == 0 || value == 2 || value == 3 || value == 5 || value == 6 || value == 8 || value == 9;
+    bool e = value == 0 || value == 2 || value == 6 || value == 8;
+    bool f = value == 0 || value == 4 || value == 5 || value == 6 || value == 8 || value == 9;
+    bool g = value == 2 || value == 3 || value == 4 || value == 5 || value == 6 || value == 8 || value == 9;
 
     digitalWrite(SEGMENT_PIN_A, a);
     digitalWrite(SEGMENT_PIN_B, b);

@@ -37,7 +37,7 @@ void setup()
     Serial.print(f);
     Serial.println();
 
-    if (a && b && c && d && e && f)
+    if (!a && b && !c && d && !e && f)
     {
         Serial.println("You got it!");
     }
