@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = "../../../../.arduino/output/letters.ino.hex"
-elf = "../../../../.arduino/output/letters.ino.elf"
