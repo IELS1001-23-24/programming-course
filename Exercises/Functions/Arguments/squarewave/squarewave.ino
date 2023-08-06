@@ -12,7 +12,7 @@
  * @param offset The offset of the square wave in ms (milliseconds).
  * @return A square wave with the given frequency and offset.
  */
-long getSquareWave()
+long getSquareWave(double frequency, long amplitude, long offset)
 {
     // The period of the square wave in ms (milliseconds)
     // the period is the time in ms (milliseconds) it takes for the

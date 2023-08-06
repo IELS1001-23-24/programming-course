@@ -14,7 +14,7 @@
  * @param offset The offset of the wave in ms (milliseconds).
  * @return A triangle wave with the given frequency and maximum value.
  */
-unsigned long getTriangleWave()
+unsigned long getTriangleWave(double frequency, long amplitude, long offset)
 {
     // The period of the square wave in ms (milliseconds)
     // the period is the time in ms (milliseconds) it takes for the

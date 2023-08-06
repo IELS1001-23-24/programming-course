@@ -7,7 +7,7 @@
 // https://www.baeldung.com/javadoc
 
 // https://www.wikihow.com/Convert-Degrees-to-Radians
-double degreesToRadians()
+double degreesToRadians(double degrees)
 {
     return (degrees * PI) / 180.0;
 }
@@ -29,7 +29,7 @@ double degreesToRadians()
  * @param offset The offset of the wave in ms (milliseconds).
  * @return A sine wave with the given frequency and maximum value.
  */
-double getSineWave()
+double getSineWave(double amplitude, double frequency, double centerValue, double offset)
 {
     // Creating a variable for the current moment in time
     // given in seconds. Using double as the datatype because

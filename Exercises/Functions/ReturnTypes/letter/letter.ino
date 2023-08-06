@@ -3,7 +3,7 @@
 // https://www.asciitable.com/
 // https://roboticsbackend.com/arduino-variable-types-complete-guide/
 
-int getLetter()
+char getLetter()
 {
     return 'a';
 }

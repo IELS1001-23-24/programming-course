@@ -2,7 +2,7 @@
 // Hint
 // https://roboticsbackend.com/arduino-variable-types-complete-guide/
 
-void getOne()
+int getOne()
 {
     return 1;
 }

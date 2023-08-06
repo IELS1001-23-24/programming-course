@@ -2,7 +2,7 @@
 // Hint
 // https://roboticsbackend.com/arduino-variable-types-complete-guide/
 
-String printHello()
+void printHello()
 {
     Serial.print("Hello World!");
 }

@@ -1,6 +1,6 @@
 // Find the correct parameters for this function.
 
-void printValue()
+void printValue(char letter, int number, float decimal)
 {
     Serial.print("Here is a letter: ");
     Serial.println(letter);

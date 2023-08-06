@@ -1,37 +1,24 @@
 // Make this code less repetitive by creating
 // a function to print a single number
 
-void printNumbers()
+void printNumber(int number)
 {
     Serial.print("Here is a number: ");
-    Serial.println(1);
+    Serial.println(number);
+}
 
-    Serial.print("Here is a number: ");
-    Serial.println(2);
-
-    Serial.print("Here is a number: ");
-    Serial.println(3);
-
-    Serial.print("Here is a number: ");
-    Serial.println(4);
-
-    Serial.print("Here is a number: ");
-    Serial.println(5);
-
-    Serial.print("Here is a number: ");
-    Serial.println(6);
-
-    Serial.print("Here is a number: ");
-    Serial.println(7);
-
-    Serial.print("Here is a number: ");
-    Serial.println(8);
-
-    Serial.print("Here is a number: ");
-    Serial.println(9);
-
-    Serial.print("Here is a number: ");
-    Serial.println(10);
+void printNumbers()
+{
+    printNumber(1);
+    printNumber(2);
+    printNumber(3);
+    printNumber(4);
+    printNumber(5);
+    printNumber(6);
+    printNumber(7);
+    printNumber(8);
+    printNumber(9);
+    printNumber(10);
 }
 
 void setup()
