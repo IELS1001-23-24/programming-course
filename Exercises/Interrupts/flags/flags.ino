@@ -19,7 +19,6 @@ void updatePrintFunction()
     if (buttonWasPressed)
     {
         Serial.println("Button was pressed!");
-        buttonWasPressed = false;
     }
 }
 
