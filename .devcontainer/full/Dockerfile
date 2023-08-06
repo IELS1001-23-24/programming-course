@@ -2,8 +2,8 @@ FROM ubuntu
 
 USER root
 
-RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get update -y
+RUN apt-get upgrade -y
 
 RUN apt-get install wget -y
 RUN apt-get install curl -y
@@ -12,8 +12,8 @@ RUN apt-get install pip -y
 RUN apt-get install nodejs -y
 
 # Installing npm requires another apt-get update and upgrade
-RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get update -y
+RUN apt-get upgrade -y
 RUN apt-get install npm -y
 
 # Install arduino-cli:
