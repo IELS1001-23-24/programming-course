@@ -28,6 +28,7 @@
   - [Logikk](Exercises/Logic/README.md)
   - [Commit](Exercises/commit/README.md)
   - [Sync Fork](Exercises/SyncFork/README.md)
+  - [Firetruck Sim: Frontlys](Exercises/FiretruckSim/Headlights/README.md)
 - Arbeidskrav 2:
   - [Functions](Exercises/Functions/README.md)
   - [Mapping Functions](Exercises/MappingFunctions/README.md)
@@ -37,13 +38,16 @@
   - [const vs #define](Exercises/ConstVsDefine/README.md)
   - [Pass By Reference](Exercises/PassByReference/README.md)
   - [Arrays](Exercises/Arrays/README.md)
+  - [Firetruck Sim: Vindusvisker](Exercises/FiretruckSim/Wiper/README.md)
 - Arbeidskrav 3:
   - [Debounce](Exercises/Debounce/README.md)
   - [EdgeDetection](Exercises/EdgeDetection/README.md)
   - [Interrupts](Exercises/Interrupts/README.md)
+  - [Firetruck Sim: Arm](Exercises/FiretruckSim/Boom/README.md)
 - Arbeidskrav 4:
   - [Switch](Exercises/Switch/README.md)
   - [NonBlockingCode](Exercises/NonBlockingCode/README.md)
+  - [Firetruck Sim: Komplett](Exercises/FiretruckSim/Complete/README.md)
 - Arbeidskrav 5:
   - [Structs](Exercises/Structs/README.md)
   - [Json](Exercises/Json/README.md)

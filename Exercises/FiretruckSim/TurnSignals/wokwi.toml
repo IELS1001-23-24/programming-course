@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = "../../../.arduino/output/TurnSignals.ino.hex"
+elf = "../../../.arduino/output/TurnSignals.ino.elf"
+rfc2217ServerPort = 4_000
+webSocketServerPort = 4_001

@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = "../../../.arduino/output/Headlights.ino.hex"
+elf = "../../../.arduino/output/Headlights.ino.elf"
+rfc2217ServerPort = 4_000
+webSocketServerPort = 4_001

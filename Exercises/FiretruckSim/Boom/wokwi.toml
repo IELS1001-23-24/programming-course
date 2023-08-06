@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = "../../../.arduino/output/Boom.ino.hex"
+elf = "../../../.arduino/output/Boom.ino.elf"
+rfc2217ServerPort = 4_000
+webSocketServerPort = 4_001
