@@ -2,6 +2,8 @@
 
 # Logikk
 
+Fyll til slutt ut besvarelsene i [notatene](/Notes/Exercises/2/README.md) for denne øvingen.
+
 Fullfør kodesnuttene
 
 - [Logisk NOT](not/not.ino)

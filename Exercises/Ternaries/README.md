@@ -2,6 +2,8 @@
 
 # Ternary Operator
 
+Før inn besvarelsene i [notatene](/Notes/Exercises/2/README.md#ternary-operator) for denne øvingen.
+
 Begrepene "Ternary Operator" og "Conditional Operator" blir ofte brukt om hverandre.
 Operatoren blir som regel brukt til å gjøre en enkel logisk sjekk,
 og returnere en verdi basert på resultatet av sjekken. Dette er svert praktisk

@@ -23,13 +23,13 @@
 
 # Arbeidskrav
 
-- Arbeidskrav 1:
+- Arbeidskrav 1: [Notater](Notes/Exercises/1/README.md)
   - [Oppsett av utviklingsmiljø](Exercises/setup/README.md)
   - [Logikk](Exercises/Logic/README.md)
   - [Commit](Exercises/commit/README.md)
   - [Sync Fork](Exercises/SyncFork/README.md)
   - [Firetruck Sim: Frontlys](Exercises/FiretruckSim/Headlights/README.md)
-- Arbeidskrav 2:
+- Arbeidskrav 2: [Notater](Notes/Exercises/2/README.md)
   - [Functions](Exercises/Functions/README.md)
   - [Mapping Functions](Exercises/MappingFunctions/README.md)
   - [Ternaries](Exercises/Ternaries/README.md)

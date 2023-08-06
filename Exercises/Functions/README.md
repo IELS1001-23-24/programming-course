@@ -2,6 +2,8 @@
 
 # Functions
 
+Før inn besvarelsene i [notatene](/Notes/Exercises/2/README.md#functions) for denne øvingen.
+
 [Arduino Docs Forklaring](https://docs.arduino.cc/learn/programming/functions)
 
 ## DRY
